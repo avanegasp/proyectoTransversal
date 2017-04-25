@@ -77,3 +77,9 @@ h1{
   text-align: center;
   font-family: 'Stint Ultra Expanded', cursive;
 }
+
+/*Animación*/
+.cohete{
+  margin-top: -25px;
+  margin-left: 20px;
+}

@@ -13,7 +13,7 @@
   <title>Calificaciones</title>
 </head>
 
-  <body>
+  <body onload="dibuja()">
     <header>
       <div class="container">
           <div class="wrapper s12">
@@ -26,6 +26,7 @@
             </div>
           </div>
     </<header>
+
 
         <div class="section">
             <div class="fixed-action-btn">
@@ -41,14 +42,15 @@
           </div>
       </div>
 
-      <form name= "fo" action="">
-        <br>
-        <br>
-        <br>
+      <section class="formlario">
+        <form name= "fo" action="">
+          <br>
+          <br>
+          <br>
           <table>
             <h3>Ingresa tu calificación:</h3>
             <tr>
-              <td colspan="5"><input type="text" name="valores" id="valores" onkeypress=""></td>
+              <td colspan="5"><input type="text" name="valores" id="valores"></td>
             </tr>
 
             <tr>
@@ -58,8 +60,14 @@
               <td><input type="button" id="calificacion" value="Borrar" onclick="eliminar()"></td>
             </tr>
           </table>
-      </form>
+        </form>
+      </section>
 
+      <div class="cohete">
+        <canvas id="milienzo" width="400" height="300">
+          <p>CALCULADORAS DE COLOMBIA</p>
+        </canvas>
+      </div>
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
