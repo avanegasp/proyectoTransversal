@@ -89,7 +89,7 @@
 
 			// validar envio
 
-			var destino = "home.html";
+			var destino = "index.html";
 
 			function redireccionar(){
 				location.href= destino;
