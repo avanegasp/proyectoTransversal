@@ -1,54 +1,53 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="css/portada.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Play|Stint+Ultra+Expanded" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<title>CALCULADORAS</title>
-</head>
-	<body onload="calculator()" "reedireccionar("index.html")";>
-		  <div class="contenedor">
-				<form id="animacion" name="form2"><input type="text" name="calculator" size="40"></form>
-		  	<div class="contenedor-formulario">
-		  		<div class="wrap">
-		  			<form action="index.html" class="formulario" name="formulario_registro" method="post">
-		  				<div>
-		  					<div class="input-group">
-		  						<input type="text" id="nombre" name="nombre" autocomplete="off">
-		  						<label class="label" for="nombre">Nombre:</label>
-		  					</div>
-		  					<div class="input-group">
-		  						<input type="email" id="correo" name="correo" autocomplete="off">
-		  						<label class="label" for="correo">Correo:</label>
-		  					</div>
-		  					<div class="input-group">
-		  						<input type="password" id="pass" name="pass" autocomplete="off">
-		  						<label class="label" for="pass">Contraseña:</label>
-		  					</div>
-		  					<div class="input-group">
-		  						<input type="password" id="pass2" name="pass2" autocomplete="off">
-		  						<label class="label" for="pass2">Repetir Contraseña:</label>
-		  					</div>
-		  					<div class="input-group radio">
-		  						<input type="radio" name="sexo" id="hombre" value="Hombre">
-		  						<label for="hombre">Hombre</label>
-		  						<input type="radio" name="sexo" id="mujer" value="Mujer">
-		  						<label for="mujer">Mujer</label>
-		  					</div>
-		  					<div class="input-group checkbox">
-		  						<input type="checkbox" name="terminos" id="terminos" value="true">
-		  						<label for="terminos">Acepto los Terminos y Condiciones</label>
-		  					</div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play|Stint+Ultra+Expanded" rel="stylesheet">
+    <link rel="shortcut icon" href="img/calculator.png">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/mainstylesheet.css">
+    <title>Página principal</title>
+  </head>
 
-		  					<input a href="index.html" type="submit" id="btn-submit" value="Enviar">
-		  				</div>
-		  			</form>
-		  		</div>
-		  	</div>
-		</div>
-		<script src="js/portada.js"></script>
-	</body>
+  <body>
+    <header>
+      <div class="container">
+        <div class="wrapper s12">
+          <div class="row">
+            <div class="logo col s4">
+              <img src="img/uc.gif" alt="">
+            </div>
+            <div class="nav col s8">
+                <H1>CALCULADORAS</H1>
+            </div>
+          </div>
+        </div>
+    </header>
+      <div class="botones">
+        <a href="grades.html" class="boton1 waves-effect waves-light btn animated bounce"><i class="material-icons left">spellcheck</i></i>Grades</a>
+        <a href="interest.html" class="boton2 waves-effect waves-light btn animated bounce"><i class="material-icons right">trending_up</i>Interest</a>
+        <!-- <li class="btn-floating blue"><a href="portada.html" title="Salir"><i class="material-icons">power_settings_new</i></a></li> -->
+      </div>
+      <div class="">
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red waves-effect waves-light">
+            <i class="material-icons" title="Menú">fast_rewind</i>
+          </a>
+          <ul>
+            <li class="btn-floating blue"><a href="index.html" title="Salir"><i class="material-icons">power_settings_new</i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  </body>
 </html>

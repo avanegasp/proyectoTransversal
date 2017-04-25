@@ -1,3 +1,5 @@
+// Función para la Animación
+
 	var pause=0,position=0;
     function calculator(){
       var msg="              CALCULADORAS DE COLOMBIA                 ";
@@ -89,7 +91,7 @@
 
 			// validar envio
 
-			var destino = "index.html";
+			var destino = "portada.html";
 
 			function redireccionar(){
 				location.href= destino;
