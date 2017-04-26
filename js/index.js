@@ -8,7 +8,19 @@
       	document.form2.calculator.value=msg.substring(position,position+100);
       if(position++==100) position=0;
       	id=setTimeout("calculator()",100);
+
+				  var animacion = document.getElementById("milienzo");
+	        var contexto = animacion.getContext('2d');
+	        var imagen = new Image();
+	        	imagen.onload=function(){
+	          	contexto.drawImage(imagen,0,0);
+	        	}
+	        		imagen.src="img/uc.gif";
 };
+
+// FUNCION PARA LA IMAGEN
+
+
 
 (function(){
 	var formulario = document.formulario_registro,
