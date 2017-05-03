@@ -154,3 +154,10 @@
 			}
 		}
 }())
+// // MEDIAQUERIES
+// var mediaquery = window.matchMedia("(max-width: 600px)");
+// if (mediaquery.matches) {
+//    	document.getElementById("animacion").getElementsByTagName("h1")[0].setAttribute("font-size", "10px")
+// } else {
+// 		document.getElementById("animacion").getElementsByTagName("h1")[0].setAttribute("font-size", "32px;");
+// }
