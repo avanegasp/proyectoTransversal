@@ -80,6 +80,122 @@ h1{
 
 /*Animación*/
 .cohete{
-  margin-top: -105px;
+  margin-top: -185px;
   margin-left: 20px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1370px) and (min-width: 780px)  {
+  .titulo2 h2, .titulo3 h3{
+    display: none;
+  }
+
+  .titulo1 h1{
+    color: green;
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 769px) and (min-width: 481px)  {
+
+  /*#animacion input{
+    display: none;
+  }*/
+
+  .titulo1 h1, .titulo3 h3{
+    display: none;
+  }
+
+  h1{
+    display: none;
+  }
+
+  img{
+    margin-top: 40px;
+    margin-left: 110px;
+  }
+
+  .cohete{
+    display: none;
+  }
+
+
+  .titulo2 h2{
+    font-size: 25px;
+    color: red;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: -0px
+  }
+  #contenido input{
+    font-size: 15px;
+  }
+
+  #contenido{
+    width: 48%;
+    margin-top: 20px;
+  }
+
+  button{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 120px;
+    float: right;
+  }
+}
+
+
+@media only screen and (max-width: 480px) and (min-width: 320px)  {
+  /*#animacion input{
+    display: none;
+  }*/
+
+  .titulo1 h1, .titulo2 h2{
+    display: none;
+  }
+
+  h1{
+    display: none;
+  }
+
+  img{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .cohete{
+    display: none;
+  }
+
+  .titulo3 h3{
+    font-size: 25px;
+    color: red;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: -0px
+  }
+
+  #contenido input{
+    font-size: 15px;
+  }
+
+  #contenido{
+    width: 48%;
+    margin-top: 20px;
+  }
+
+  button{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 120px;
+    float: right;
+  }
 }
