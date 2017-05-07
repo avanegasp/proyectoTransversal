@@ -15,7 +15,7 @@
 	        	imagen.onload=function(){
 	          	contexto.drawImage(imagen,0,0);
 	        	}
-	        		imagen.src="img/uc.gif";
+	        		// imagen.src="img/uc.gif";
 };
 
 // FUNCION PARA LA IMAGEN
